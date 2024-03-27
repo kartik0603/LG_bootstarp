@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+  background-color: rgb(240, 236, 228) !important;
+
+}
+
+.nav_logo_img {
+  width: 80px;
+  height: 60px;
+  margin: 10px;
+}
+
+.navbar {
+  background-color: rgb(240, 236, 228) !important;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.nav-link {
+  font-size: 21px;
+  font-weight: 500;
+  font-family: Sans Serif;
+  color: black;
+}
+
+.Nav_btn_business {
+  width: 85px;
+  /* height: 50px; */
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 550;
+  font-family: Sans Serif;
+  color: black;
+}
+
+.nav_items_box
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+width: max-content;
+height: 100%;
+}
+
+.nav_links_img
+{
+  width: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+
+.dropdown-menu
+{
+ 
+
+
+ 
+
+}
+
+.dropdown-menu a
+{
+  text-decoration: none;
+  color: black;
+}
+
+.nav_dropdown_items_text
+{
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.shop_nav_lg_imgs
+{
+  width: 250px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+
+
