@@ -150,7 +150,7 @@ width: 658px;
 /* height: 100%; */
 position: absolute;
 top: 70px;
-left: 30px;
+left: 0px;
 }
 
 
@@ -229,7 +229,7 @@ left: 30px;
 }
 .flex-container
 {
-border: 5px solid rgb(160, 17, 17);
+/* border: 5px solid rgb(160, 17, 17); */
 }
 .flex-item {
   display: none;
@@ -326,4 +326,12 @@ border: 5px solid rgb(160, 17, 17);
   font-family:cursive;
   font-weight: bolder;
 
+}
+
+
+.LG_box_imgs
+{
+  width: 450px;
+  height: 550px;
+  border-radius: 18px;
 }
