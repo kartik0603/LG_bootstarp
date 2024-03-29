@@ -6,7 +6,44 @@
 body
 {
   background-color: rgb(240, 236, 228) !important;
+  /* overflow: hidden; */
+  overflow-y: scroll;
+overflow-x: hidden;
+  
 
+}
+
+@media only screen and (max-width: 670px)
+{
+  body
+{
+ 
+  overflow-y: scroll;
+overflow-x: hidden;
+  
+
+}
+}
+
+
+@media only screen and (max-width: 569px)
+{
+  body
+{
+ 
+  overflow-y: scroll;
+overflow-x: hidden;
+  
+
+}
+}
+
+
+
+
+.lg_nav_bar
+{
+  width: 100vw;
 }
 
 .nav_logo_img {
@@ -44,10 +81,11 @@ body
 .nav_items_box
 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 width: max-content;
 height: 100%;
+margin-right: 2%;
 }
 
 .nav_links_img
@@ -333,8 +371,8 @@ left: 0px;
 
 .LG_box_imgs
 {
-  width: 450px;
-  height: 550px;
+  width: 350px;
+  height: 350px;
   border-radius: 18px;
 }
 
